@@ -1,6 +1,5 @@
-
 import 'package:flutter/material.dart';
-import 'package:simple_app/presentation/karyawan_screen.dart';
+import 'package:simple_app/presentation/karyawan/karyawan_screen.dart';
 
 class App extends StatelessWidget {
   const App({Key? key}) : super(key: key);
@@ -12,7 +11,7 @@ class App extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const KaryawanScreen(title: 'Simple App'),
+      home: KaryawanScreen(),
     );
   }
 }
